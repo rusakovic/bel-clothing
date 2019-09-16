@@ -35,8 +35,6 @@ class App extends React.Component {
              ...snapShot.data()
            }
          });
-
-         console.log(this.state)
        })
      } else { // but if the user Logged out we should setState to 'userAuth => null' after logging out 
       this.setState({ currentUser: userAuth })
