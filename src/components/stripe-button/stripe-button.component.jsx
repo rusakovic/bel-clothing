@@ -2,7 +2,6 @@ import React from 'react';
 import StripeCheckout from 'react-stripe-checkout';
 import logo from '../../assets/logo.svg';
 
-import { ReactComponent as Logo } from '../../assets/logo.svg';
 
 const StripeCheckoutButton = ({ price }) => {
   // stripe want to see prices in cents. so, we multiply by 100

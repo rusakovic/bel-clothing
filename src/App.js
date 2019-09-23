@@ -40,7 +40,7 @@ class App extends React.Component {
         });
 
       } else { // but if the user Logged out we should setState to 'userAuth => null' after logging out 
-        setCurrentUser(userAuth)
+        setCurrentUser(userAuth);
       }
     })
   }
